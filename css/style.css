@@ -258,18 +258,21 @@ img {
     .contact-info {
         font-size: 1rem;
         margin-top: 30px;
-        .social-buttons {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
+       .social-buttons {
+    display: flex;         
+    justify-content: center; 
+    gap: 15px;             
     margin: 20px 0;
-    flex-wrap: wrap;
+    flex-wrap: wrap;        
 }
 
 .social-buttons > * {
     display: inline-block;
+    min-width: 120px;       
 }
+
 
     }
 }
+
 
