@@ -1,1 +1,99 @@
-<style> body { font-family: Arial, sans-serif; background-color: #f0f0f0; margin: 0; padding: 0; } nav ul { list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333; text-align: center; } nav ul li { display: inline-block; } nav ul li a { display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none; } nav ul li a:hover { background-color: #111; } .kontakt-container { max-width: 600px; margin: 30px auto; padding: 20px; background-color: #fffaf0; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); } .kontakt-container label, .kontakt-container input, .kontakt-container textarea, .kontakt-container h1, .kontakt-container h3, .kontakt-container p { display: block; width: 100%; margin-bottom: 15px; text-align: left; } .kontakt-container input, .kontakt-container textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; } .kontakt-container input[type="button"] { background-color: PeachPuff; color: #000; font-weight: bold; cursor: pointer; } .kontakt-container input[type="button"]:hover { background-color: #ff7f50; color: white; } .kontakt-container ul { list-style-type: none; padding: 0; } .kontakt-container ul li { margin-bottom: 10px; } .kontakt-container ul li a { color: #333; text-decoration: none; } .contact-info { margin-bottom: 20px; font-weight: bold; color: #352726; } </style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigacija */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+/* Kontakt forma */
+.kontakt-container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fffaf0;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.kontakt-container label,
+.kontakt-container input,
+.kontakt-container textarea,
+.kontakt-container h1,
+.kontakt-container h3,
+.kontakt-container p {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.kontakt-container input,
+.kontakt-container textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Dugme */
+.kontakt-container input[type="button"] {
+    background-color: PeachPuff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.kontakt-container input[type="button"]:hover {
+    background-color: #ff7f50;
+    color: white;
+}
+
+/* Lista linkova */
+.kontakt-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.kontakt-container ul li {
+    margin-bottom: 10px;
+}
+
+.kontakt-container ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+/* Kontakt info */
+.contact-info {
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #352726;
+}
+
+
