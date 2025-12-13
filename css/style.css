@@ -266,9 +266,15 @@ img {
     gap: 15px;                
     margin: 20px 0;           
 }
+    .social-buttons a img.insta-btn {
+    width: 40px;               
+    height: 40px;
+    display: block;
+}
 
 
 
 }
+
 
 
