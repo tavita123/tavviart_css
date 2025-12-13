@@ -1,174 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang=en>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Kontakt – TaviArt galerija crteža</title>
-
-    <meta name="description" content="Kontaktirajte TaviArt za informacije o crtežima, portretima po narudžbini, galeriji i umetničkim delima. Drago nam je da sarađujemo sa vama.">
-    <meta name="keywords" content="kontakt, TaviArt, portreti na platnu, crteži za decu, umetnost, narudžbina portreta, galerija slika, umetnička dela">
-    <meta property="og:title" content="TaviArt – Online galerija crteža i portreta">
-    <meta property="og:description" content="Otkrijte originalne crteže, portrete i pejzaže u različitim tehnikama.">
-    <meta property="og:image" content="https://www.tavart.com/slike/logo/logo.png">
-    <meta property="og:url" content="https://www.tavart.com/index.html">
-    <meta property="og:type" content="website">
-
-
-    <link rel="icon" type="image/x-icon" href="slike/logo/icon.png">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        }
-
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #333;
-            text-align: center;
-        }
-
-        nav ul li {
-            display: inline-block;
-        }
-
-        nav ul li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-
-        nav ul li a:hover {
-            background-color: #111;
-        }
-
-        .kontakt-container {
-            max-width: 600px;
-            margin: 30px auto;
-            padding: 20px;
-            background-color: #fffaf0;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-
-        .kontakt-container label,
-        .kontakt-container input,
-        .kontakt-container textarea,
-        .kontakt-container h1,
-        .kontakt-container h3,
-        .kontakt-container p {
-            display: block;
-            width: 100%;
-            margin-bottom: 15px;
-            text-align: left;
-        }
-
-        .kontakt-container input,
-        .kontakt-container textarea {
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-
-        .kontakt-container input[type="button"] {
-           	background-color: PeachPuff;
-            color: #000;
-            font-weight: bold;
-            cursor: pointer;
-        }
-
-        .kontakt-container input[type="button"]:hover {
-            background-color: #ff7f50;
-            color: white;
-        }
-
-        .kontakt-container ul {
-            list-style-type: none;
-            padding: 0;
-        }
-
-        .kontakt-container ul li {
-            margin-bottom: 10px;
-        }
-
-        .kontakt-container ul li a {
-            color: #333;
-            text-decoration: none;
-        }
-
-        .contact-info {
-            margin-bottom: 20px;
-            font-weight: bold;
-            color: #352726;
-        }
-    </style>
+<meta charset=UTF-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>Kontakt – TaviArt galerija crteža</title>
+<meta name=description content="Kontaktirajte TaviArt za informacije o crtežima, portretima po narudžbini, galeriji i umetničkim delima. Drago nam je da sarađujemo sa vama.">
+<meta name=keywords content="kontakt, TaviArt, portreti na platnu, crteži za decu, umetnost, narudžbina portreta, galerija slika, umetnička dela">
+<meta property=og:title content="TaviArt – Online galerija crteža i portreta">
+<meta property=og:description content="Otkrijte originalne crteže, portrete i pejzaže u različitim tehnikama.">
+<meta property=og:image content=https://www.tavart.com/slike/logo/logo.png>
+<meta property=og:url content=https://www.tavart.com/index.html>
+<meta property=og:type content=website>
+<link rel=icon type=image/x-icon href=slike/logo/icon.png>
+<link rel=stylesheet href=css/style.css>
+<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css>
+<style>body{font-family:Arial,sans-serif;background-color:#f0f0f0;margin:0;padding:0}nav ul{list-style-type:none;margin:0;padding:0;overflow:hidden;background-color:#333;text-align:center}nav ul li{display:inline-block}nav ul li a{display:block;color:#fff;text-align:center;padding:14px 16px;text-decoration:none}nav ul li a:hover{background-color:#111}.kontakt-container{max-width:600px;margin:30px auto;padding:20px;background-color:#fffaf0;border-radius:10px;box-shadow:0 4px 6px rgba(0,0,0,.1)}.kontakt-container h1,.kontakt-container h3,.kontakt-container input,.kontakt-container label,.kontakt-container p,.kontakt-container textarea{display:block;width:100%;margin-bottom:15px;text-align:left}.kontakt-container input,.kontakt-container textarea{padding:10px;border:1px solid #ccc;border-radius:5px}.kontakt-container input[type=button]{background-color:#ffdab9;color:#000;font-weight:700;cursor:pointer}.kontakt-container input[type=button]:hover{background-color:coral;color:#fff}.kontakt-container ul{list-style-type:none;padding:0}.kontakt-container ul li{margin-bottom:10px}.kontakt-container ul li a{color:#333;text-decoration:none}.contact-info{margin-bottom:20px;font-weight:700;color:#352726}</style>
 </head>
-
 <body>
-   <nav>
-        <ul>
-            <li><a href="index.html">Početna – TaviArt galerija</a></li>
-            <li><a href="oNama.html">O nama – galerija crteža i portreta</a></li>
-            <li><a href="galerija.html">Galerija crteža, portreta i pejzaža</a></li>
-            <li><a href="kontakt.html">Kontakt – porudžbina portreta i crteža</a></li>
-        </ul>
-    </nav>
-  <div class="kontakt-container">
-  <h1>Kontakt – TaviArt umetnička galerija crteža i portreta</h1>
-p>Kontaktirajte nas za informacije o crtežima, portretima po narudžbini i umetničkim delima. TaviArt galerija je tu da odgovori na vaša pitanja i ponudi inspiraciju kroz umetnost.</p>
-
-    <section class="contact-info">
-      <p><i class="fa fa-envelope"></i> Email: kontakt@example.com</p>
-      <p><i class="fa fa-phone"></i> Telefon: +381 64 123 4567</p>
-      <p><i class="fa fa-map-marker"></i> Adresa: Ulica i broj, Grad</p>
-    </section>
-
-    <form>
-      <label for="firstName">Ime:</label>
-      <input type="text" id="firstName" name="firstName">
-
-      <label for="lastName">Prezime:</label>
-      <input type="text" id="lastName" name="lastName">
-
-      <label for="username">Korisnicko ime:</label>
-      <input type="text" id="username" name="username">
-
-      <label for="password">Sifra:</label>
-      <input type="password" id="password" name="password">
-
-      <label for="freeform">Da li imate neke zamerke ili pohvale:</label>
-      <textarea id="freeform" name="freeform" rows="4"></textarea>
-
-      <input type="button" value="Pošalji">
-    </form>
-
-    <h3>Naše društvene mreže:</h3>
-    <ul>
-      <li><a href="https://www.facebook.com/">Facebook</a></li>
-      <li><a href="https://www.instagram.com/">Instagram</a></li>
-      <li><a href="https://www.twitter.com/">Twitter</a></li>
-    </ul>
-  </div>
+<nav>
+<ul>
+<li><a href=index.html>Početna – TaviArt galerija</a></li>
+<li><a href=oNama.html>O nama – galerija crteža i portreta</a></li>
+<li><a href=galerija.html>Galerija crteža, portreta i pejzaža</a></li>
+<li><a href=kontakt.html>Kontakt – porudžbina portreta i crteža</a></li>
+</ul>
+</nav>
+<div class=kontakt-container>
+<h1>Kontakt – TaviArt umetnička galerija crteža i portreta</h1>
+p>Kontaktirajte nas za informacije o crtežima, portretima po narudžbini i umetničkim delima. TaviArt galerija je tu da odgovori na vaša pitanja i ponudi inspiraciju kroz umetnost.<p></p>
+<section class=contact-info>
+<p><i class="fa fa-envelope"></i> Email: kontakt@example.com</p>
+<p><i class="fa fa-phone"></i> Telefon: +381 64 123 4567</p>
+<p><i class="fa fa-map-marker"></i> Adresa: Ulica i broj, Grad</p>
+</section>
+<form>
+<label for=firstName>Ime:</label>
+<input id=firstName name=firstName>
+<label for=lastName>Prezime:</label>
+<input id=lastName name=lastName>
+<label for=username>Korisnicko ime:</label>
+<input id=username name=username>
+<label for=password>Sifra:</label>
+<input type=password id=password name=password>
+<label for=freeform>Da li imate neke zamerke ili pohvale:</label>
+<textarea id=freeform name=freeform rows=4></textarea>
+<input type=button value=Pošalji>
+</form>
+<h3>Naše društvene mreže:</h3>
+<ul>
+<li><a href=https://www.facebook.com/ >Facebook</a></li>
+<li><a href=https://www.instagram.com/ >Instagram</a></li>
+<li><a href=https://www.twitter.com/ >Twitter</a></li>
+</ul>
+</div>
 </body>
 </html>
-
-
-      
-
-
-
-
-
-
-
-
