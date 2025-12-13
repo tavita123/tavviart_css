@@ -259,4 +259,19 @@ img {
         font-size: 1rem;
         margin-top: 30px;
     }
+    .social-buttons {
+    display: flex;             /* Омогућава flex распоред */
+    justify-content: center;   /* Центрира дугмад хоризонтално */
+    align-items: center;       /* Центрира дугмад вертикално */
+    gap: 15px;                 /* Размак између дугмади */
+    margin: 20px 0;            /* Размак одозго и одоздо */
 }
+
+.social-buttons a img.insta-btn {
+    width: 40px;               /* Величина Instagram иконе */
+    height: 40px;
+    display: block;
+}
+
+}
+
